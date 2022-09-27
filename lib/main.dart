@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': ((ctx) => CategoriesScreen()),
         CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
-        // MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
+        MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
       },
       onGenerateRoute: (settings) {
         print(settings.arguments);
